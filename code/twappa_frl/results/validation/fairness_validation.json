@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "partition_hashes": {
+    "0": "0a515259032e7454a3c9dbeaa7a41130e3264b31c056533a7c1876730001c248",
+    "1": "4a7981c596138387c0f89ac1dbf5c6af42041740a64d0cbc97d4ab19da915169",
+    "2": "738367e6d55b8320a4682cfcd86d843f3183ea4976e05f4db25bdad1c2d8e695",
+    "3": "52c199ad1cc35d5b2ac7feeb0c03f3a730adc4c6dcf2874eebb5546a2b7912ca",
+    "4": "c38c62bcd676a13126148beed86dd658f77e914450c4d3ab80f1e524951e9483"
+  },
+  "partition_hash": "33723ea59876dbcc6067be0b5a1b3736a3f16494f4814d52c2c06cbdd8cd8693",
+  "evaluation_set_hash": "83231db890ee1b87f8d33e9c70d6a2f57690b3b2eb682b35aac6dbf45daaf065",
+  "checks": [
+    "5 fixed client IDs",
+    "client 4 adversarial only outside clean condition",
+    "30 rounds",
+    "shared saved initial checkpoint per seed",
+    "shared evaluation set",
+    "real TenSEAL CKKS"
+  ]
+}

@@ -1,0 +1,35 @@
+name: frl-ckks-repro
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Core interpreter
+  - python=3.10.14
+  - pip=24.0
+  # Numerical / data stack
+  - numpy=1.26.4
+  - pandas=2.2.2
+  - scipy=1.12.0
+  - scikit-learn=1.4.2
+  - matplotlib=3.8.4
+  - seaborn=0.13.2
+  - tqdm=4.66.4
+  - pyyaml=6.0.1
+  - joblib=1.4.2
+  - pytest=8.2.2
+  # Optional performance / logging / notebooks
+  - numba=0.59.1
+  - loguru=0.7.2
+  - notebook=7.2.0
+  - ipykernel=6.29.4
+  # RL support
+  - gym=0.26.2
+  # PyTorch stack (CPU-only for reproducibility)
+  - pytorch=2.2.2
+  - torchvision=0.17.2
+  - cpuonly
+  # Pip-only packages
+  - pip:
+      - tenseal==0.3.16

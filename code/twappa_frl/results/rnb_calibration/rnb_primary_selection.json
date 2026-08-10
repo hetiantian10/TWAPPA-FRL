@@ -1,0 +1,15 @@
+{
+  "selection_rule": "lowest alpha with >=5pp mean degradation, positive degradation for every seed, finite stable training, and attacked accuracy >0.30",
+  "selected": {
+    "condition": "alpha_0.5",
+    "alpha": 0.5,
+    "mean_accuracy_degradation": 0.11033333333333338,
+    "std_accuracy_degradation": 0.06864643714959526,
+    "min_accuracy_degradation": 0.06066666666666676,
+    "mean_f1_degradation": 0.17429043485872864,
+    "mean_attacked_accuracy": 0.4368888888888888,
+    "mean_norm_ratio": 0.5001973822456454,
+    "any_nan_or_inf": false,
+    "all_stable": true
+  }
+}

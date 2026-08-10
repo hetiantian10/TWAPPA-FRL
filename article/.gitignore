@@ -1,0 +1,30 @@
+# LaTeX auxiliary and build-state files. Source PDFs are intentionally tracked.
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.dvi
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.run.xml
+*.synctex
+*.synctex.gz
+*.toc
+*.xdv
+*-converted-to.*
+missfont.log
+latex.out/
+_minted*/
+
+# Editor and Python helper state
+*.bak
+*.sav
+*.swp
+*~
+.idea/
+__pycache__/
+*.py[cod]

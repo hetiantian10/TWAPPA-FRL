@@ -1,0 +1,2 @@
+rounds,mean_mae,max_mae,mean_l2_error,max_l2_error,mean_relative_l2_error,max_relative_l2_error,mean_max_absolute_error,max_absolute_error,any_trust_weight_difference,any_client_update_difference
+30,2.066736654645259e-06,2.076633563774521e-06,0.00067645293311211,0.0006812054780311,0.0014597119763493066,0.0020084669813513,2.3250632633183462e-05,3.2285694032907486e-05,False,False

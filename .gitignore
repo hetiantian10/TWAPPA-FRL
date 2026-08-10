@@ -1,0 +1,67 @@
+# Python caches and tooling output
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local environments and configuration
+.venv/
+venv/
+env/
+.env
+
+# Editor settings
+.vscode/
+.idea/
+
+# TeX build output
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+
+# Datasets, generated experiments, and model state
+/data/
+/results/
+MachineLearningCSV/
+artifacts/
+checkpoints/
+runs/
+*.pt
+*.pth
+*.ckpt
+*.pcap
+
+# Historical and working material outside the publication snapshot
+/article/archive/
+/article/draft/
+/article/related_work/
+/article/tables/
+/modified12class/
+/code/original/
+/code/I1_dapi/
+/code/I2_ckks/
+/code/path-execution + ad suppression/
+/code/poisoning attacks/
+
+# Temporary files and local archives
+/tmp/
+*.tmp
+*.bak
+*.zip
+*.rar
+*.7z
+*.pid
+.DS_Store
+
+# Generated alternate figure format; the paper includes the PDF.
+article/figures/sensitivity_scalability_summary.png

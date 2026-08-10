@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software or its packaged benchmark evidence, please cite the accompanying paper."
+title: "TWAPPA-FRL: Trust-Weighted Privacy-Preserving Aggregation for Federated Reinforcement Learning in Collaborative Intrusion Detection"
+type: software
+authors:
+  - family-names: Rajapaksha
+    given-names: Piyumi M. S.
+    orcid: "https://orcid.org/0009-0002-6583-2652"
+  - family-names: Iasenovets
+    given-names: Artur
+    orcid: "https://orcid.org/0009-0008-0008-3746"
+  - family-names: Yi
+    given-names: Yinxue
+    orcid: "https://orcid.org/0000-0003-4680-3389"
+  - family-names: Tang
+    given-names: Fei
+    orcid: "https://orcid.org/0000-0002-0048-9876"
+repository-code: "https://github.com/hetiantian10/TWAPPA-FRL"
+license: BSD-3-Clause

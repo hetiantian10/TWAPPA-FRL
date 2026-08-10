@@ -1,0 +1,12 @@
+## Included attacks
+
+- `label_flipping`: cyclically replaces labels for malicious clients.
+- `data_poisoning`: adds feature-scaled Gaussian noise to malicious-client training data.
+- `reward_poisoning`: falsifies the reward metric submitted by malicious clients.
+- `sign_flipping`: negates malicious-client model updates.
+- `random_noise_byzantine`: replaces malicious-client updates with Gaussian noise.
+- `model_replacement`: submits a scaled, sign-flipped model update.
+
+The attack implementations are in
+`frl_runner_package/frl_runner/runners/run_20class_dapi.py`. The benchmark sweep is
+launched by `frl_runner_package/frl_runner/runners/run_unified_attack_sweep.py`.

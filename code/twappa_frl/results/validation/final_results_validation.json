@@ -1,0 +1,284 @@
+{
+  "source_policy": "Programmatically generated exclusively from official benchmark CSV files under this root; no manually entered or historical result values.",
+  "official_root": "code/twappa_frl",
+  "expected_history_count": 21,
+  "actual_history_count": 21,
+  "all_histories_exactly_6_paths_x_30_evaluation_rounds": true,
+  "history_checks": [
+    {
+      "seed": 42,
+      "attack": "none",
+      "history_sha256": "ebf81b669cfe745ca98536fe10fc3326987ed611a6f1afe62f56d57534b6c092",
+      "evaluation_rows": 180,
+      "path_count": 6,
+      "exact_6_paths_x_30_rounds": true
+    },
+    {
+      "seed": 42,
+      "attack": "sign_flipping",
+      "history_sha256": "f621c9376e127d7a9062adb85f7e712f1db9f97db68053e5ba3b4e35e3bf2ae9",
+      "evaluation_rows": 180,
+      "path_count": 6,
+      "exact_6_paths_x_30_rounds": true
+    },
+    {
+      "seed": 42,
+      "attack": "random_noise_byzantine",
+      "history_sha256": "f36c08e5549a99a4f87d43cfaca77fcd57059db3433410150a5b51f2844a3bc2",
+      "evaluation_rows": 180,
+      "path_count": 6,
+      "exact_6_paths_x_30_rounds": true
+    },
+    {
+      "seed": 42,
+      "attack": "model_replacement",
+      "history_sha256": "0467e1b35ac254974dc3e73ce6a53f5da2382d65ea39e59452283c9dba64fe53",
+      "evaluation_rows": 180,
+      "path_count": 6,
+      "exact_6_paths_x_30_rounds": true
+    },
+    {
+      "seed": 42,
+      "attack": "label_flipping",
+      "history_sha256": "2a76c97edafde487bc9a3b1dfb9955e924cf8941ebcf55e9e02fbb0646ae4394",
+      "evaluation_rows": 180,
+      "path_count": 6,
+      "exact_6_paths_x_30_rounds": true
+    },
+    {
+      "seed": 42,
+      "attack": "data_poisoning",
+      "history_sha256": "7558c2062c4dccb020af1c45d42133350fefb2521345d7a6c7cbdd764017fda9",
+      "evaluation_rows": 180,
+      "path_count": 6,
+      "exact_6_paths_x_30_rounds": true
+    },
+    {
+      "seed": 42,
+      "attack": "reward_poisoning",
+      "history_sha256": "7eb68e6280bff5c1cc0fbc837ae66ff22d3f9d5a4e5da9a6681a8080d75be9c9",
+      "evaluation_rows": 180,
+      "path_count": 6,
+      "exact_6_paths_x_30_rounds": true
+    },
+    {
+      "seed": 123,
+      "attack": "none",
+      "history_sha256": "aed9ab786db0fd6fa2152e51a39d496b87b30c0a82049222214217473e90ebd5",
+      "evaluation_rows": 180,
+      "path_count": 6,
+      "exact_6_paths_x_30_rounds": true
+    },
+    {
+      "seed": 123,
+      "attack": "sign_flipping",
+      "history_sha256": "91ba12ad6fee23f413d3d0c13d0d4842c745ec83a0acc4b9bab8f4f1c5a3c526",
+      "evaluation_rows": 180,
+      "path_count": 6,
+      "exact_6_paths_x_30_rounds": true
+    },
+    {
+      "seed": 123,
+      "attack": "random_noise_byzantine",
+      "history_sha256": "ec4903e32075f35e4234479744783d998766eac2549949a02d88e5a5a904c93f",
+      "evaluation_rows": 180,
+      "path_count": 6,
+      "exact_6_paths_x_30_rounds": true
+    },
+    {
+      "seed": 123,
+      "attack": "model_replacement",
+      "history_sha256": "2b4d97a6730cba05a1bfe5fb39a00ee490c6e617da1ce8624b2278f06255d21d",
+      "evaluation_rows": 180,
+      "path_count": 6,
+      "exact_6_paths_x_30_rounds": true
+    },
+    {
+      "seed": 123,
+      "attack": "label_flipping",
+      "history_sha256": "324c074b0065f37160ca62a25ce4d04632464672e42da2383f84338b4f9a4125",
+      "evaluation_rows": 180,
+      "path_count": 6,
+      "exact_6_paths_x_30_rounds": true
+    },
+    {
+      "seed": 123,
+      "attack": "data_poisoning",
+      "history_sha256": "5ccebf9e1be7edae5308c3f4df153e7ad606d0bb32b4a5017ec597685832250c",
+      "evaluation_rows": 180,
+      "path_count": 6,
+      "exact_6_paths_x_30_rounds": true
+    },
+    {
+      "seed": 123,
+      "attack": "reward_poisoning",
+      "history_sha256": "9a54a01c9c591c19f19ea0895efe64342b4fcd9349623db3d94569b5e116670d",
+      "evaluation_rows": 180,
+      "path_count": 6,
+      "exact_6_paths_x_30_rounds": true
+    },
+    {
+      "seed": 2025,
+      "attack": "none",
+      "history_sha256": "adc07fa0819fdd358e9c54c87ba891e179c71f8c66cf17b4159da484b9ca7bc2",
+      "evaluation_rows": 180,
+      "path_count": 6,
+      "exact_6_paths_x_30_rounds": true
+    },
+    {
+      "seed": 2025,
+      "attack": "sign_flipping",
+      "history_sha256": "304a761f4b9fb14793845a16bf34eee0e32e61d5659944b9b0b6f98d92937faf",
+      "evaluation_rows": 180,
+      "path_count": 6,
+      "exact_6_paths_x_30_rounds": true
+    },
+    {
+      "seed": 2025,
+      "attack": "random_noise_byzantine",
+      "history_sha256": "2114c2ae55914fc4efd590c8575c3bf47ce908e47c3d910072bb1885f9d2a9f0",
+      "evaluation_rows": 180,
+      "path_count": 6,
+      "exact_6_paths_x_30_rounds": true
+    },
+    {
+      "seed": 2025,
+      "attack": "model_replacement",
+      "history_sha256": "a3fb172f0eed43dbd89b6da088b905276acc59207ec7a7cdc0d5d6d33953edbf",
+      "evaluation_rows": 180,
+      "path_count": 6,
+      "exact_6_paths_x_30_rounds": true
+    },
+    {
+      "seed": 2025,
+      "attack": "label_flipping",
+      "history_sha256": "6e253aaeb8eb9e7608edfa55b86d2f70c9e9428e4a1dc99d4f89275a0d70d0b0",
+      "evaluation_rows": 180,
+      "path_count": 6,
+      "exact_6_paths_x_30_rounds": true
+    },
+    {
+      "seed": 2025,
+      "attack": "data_poisoning",
+      "history_sha256": "e3f40a880592fca702455a7be383d41b5754e4533800decc3e822a95f7a637c0",
+      "evaluation_rows": 180,
+      "path_count": 6,
+      "exact_6_paths_x_30_rounds": true
+    },
+    {
+      "seed": 2025,
+      "attack": "reward_poisoning",
+      "history_sha256": "5b3e18b2d6b88b7bfcaa463537c2ef2798cc1e7457b1946424a80320e83b01b2",
+      "evaluation_rows": 180,
+      "path_count": 6,
+      "exact_6_paths_x_30_rounds": true
+    }
+  ],
+  "expected_manifest_entries": 126,
+  "actual_manifest_entries": 126,
+  "all_manifest_entries_completed": true,
+  "unique_manifest_config_hashes": [
+    "22dc37846e3e0377e62421871dd7e22f1a7cf66b3f9f9ad5c3cf0380c7a18450"
+  ],
+  "single_partition_hash": true,
+  "partition_hash": "33723ea59876dbcc6067be0b5a1b3736a3f16494f4814d52c2c06cbdd8cd8693",
+  "partition_hashes": {
+    "0": "0a515259032e7454a3c9dbeaa7a41130e3264b31c056533a7c1876730001c248",
+    "1": "4a7981c596138387c0f89ac1dbf5c6af42041740a64d0cbc97d4ab19da915169",
+    "2": "738367e6d55b8320a4682cfcd86d843f3183ea4976e05f4db25bdad1c2d8e695",
+    "3": "52c199ad1cc35d5b2ac7feeb0c03f3a730adc4c6dcf2874eebb5546a2b7912ca",
+    "4": "c38c62bcd676a13126148beed86dd658f77e914450c4d3ab80f1e524951e9483"
+  },
+  "evaluation_set_hash": "83231db890ee1b87f8d33e9c70d6a2f57690b3b2eb682b35aac6dbf45daaf065",
+  "shared_initial_checkpoint_within_each_seed": true,
+  "actual_checkpoint_hashes_match_manifest": true,
+  "initial_checkpoint_hashes_by_seed": {
+    "42": [
+      "def35daddc129ee97c638fb308d86b10b9a135c38e410220a99d11c3f69ae341"
+    ],
+    "123": [
+      "b3793247125b5c1ae7f55e436a54691b261c43ababb7cf8a45aa7ce7ae72681b"
+    ],
+    "2025": [
+      "ee61752b42d1ab9dc3bbe12acddfac5314d6f2960cbe4e8a7767e4417946e996"
+    ]
+  },
+  "actual_initial_checkpoint_hashes_by_seed": {
+    "42": "def35daddc129ee97c638fb308d86b10b9a135c38e410220a99d11c3f69ae341",
+    "123": "b3793247125b5c1ae7f55e436a54691b261c43ababb7cf8a45aa7ce7ae72681b",
+    "2025": "ee61752b42d1ab9dc3bbe12acddfac5314d6f2960cbe4e8a7767e4417946e996"
+  },
+  "malicious_client_id": 4,
+  "clean_malicious_client_id_is_empty": true,
+  "adversarial_malicious_client_id_is_4": true,
+  "rounds": 30,
+  "seeds": [
+    42,
+    123,
+    2025
+  ],
+  "conditions": [
+    "none",
+    "sign_flipping",
+    "random_noise_byzantine",
+    "model_replacement",
+    "label_flipping",
+    "data_poisoning",
+    "reward_poisoning"
+  ],
+  "execution_paths": [
+    "fedavg",
+    "static_dp",
+    "twa",
+    "ppa",
+    "sdp_ppa",
+    "twa_ppa"
+  ],
+  "aligned_configuration": {
+    "profile_name": "twa_manuscript_5client",
+    "num_clients": 5,
+    "client_ids": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "full_participation": true,
+    "local_episodes": 1,
+    "max_steps_per_episode": 16,
+    "batch_size": 128,
+    "aggregate_update_type": "norm_bounded",
+    "twa_norm_bound": 1.0,
+    "trust_ema_smoothing": 0.65,
+    "trust_normalization": "power",
+    "trust_temperature": 1.0,
+    "trust_power": 4.0,
+    "maximum_client_weight": 0.25,
+    "privacy_intensity_enabled": false,
+    "real_ckks": true,
+    "rnb_primary_alpha": 0.5
+  },
+  "suppression_count_criterion": "A malicious-client round is counted as suppressed if and only if its recorded TWA aggregation weight w_adv <= 1e-8. Rounds 21-30 are filtered explicitly by round number. This is not the trust gate lambda=0.50 and is not a comparison with benign weights.",
+  "rnb_primary": {
+    "alpha": 0.5,
+    "main_row_label": "RNB-Primary",
+    "statement": "RNB-Primary was selected as the lowest tested magnitude satisfying the predefined potency criterion across all three seeds. Lower-magnitude RNB conditions were retained as calibration results but excluded from the main robustness table."
+  },
+  "excluded_sources": [
+    "invalid diagnostic clipped/raw experiments",
+    "TWA aggregation ablations",
+    "one-round smoke tests",
+    "RNB-Weak calibration",
+    "historical manually entered results"
+  ],
+  "generated_files": [
+    "table_II_attack_path_performance.csv",
+    "table_II_attack_path_performance.tex",
+    "table_III_multiple_poisoning_results.csv",
+    "table_III_multiple_poisoning_results.tex",
+    "table_II_per_seed_source.csv",
+    "table_III_per_seed_source.csv",
+    "final_results_validation.json"
+  ]
+}

@@ -1,0 +1,25 @@
+profile_name: twa_manuscript_5client
+num_clients: 5
+aggregate_update_type: norm_bounded
+twa_norm_bound: 1.0
+privacy_intensity_enabled: false
+adaptive_privacy: false
+client_specific_epsilon: false
+adaptive_noise_scale: 0
+fixed_dp_noise: 0
+trust_ema_smoothing: 0.65
+trust_normalization: power
+trust_temperature: 1.0
+trust_power: 4.0
+minimum_active_weight: 0
+trust_numerical_floor: 0
+maximum_client_weight: 0.25
+hard_suppression_threshold: 1.0e-8
+trust_warmup_rounds: 0
+trust_coefficients:
+  stability: 0.18
+  quality: 0.20
+  similarity: 0.18
+  history: 0.10
+  macro_f1: 0.16
+  gradient_deviation: 0.18

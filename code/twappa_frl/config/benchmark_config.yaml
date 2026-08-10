@@ -1,0 +1,29 @@
+profile_name: "twa_manuscript_5client"
+seeds: [42, 123, 2025]
+execution_paths: ["fedavg", "static_dp", "twa", "ppa", "sdp_ppa", "twa_ppa"]
+attacks: ["none", "sign_flipping", "random_noise_byzantine", "model_replacement", "label_flipping", "data_poisoning", "reward_poisoning"]
+num_clients: 5
+client_ids: [0, 1, 2, 3, 4]
+malicious_client_id: 4
+rounds: 30
+local_episodes: 1
+max_steps_per_episode: 16
+batch_size: 128
+data_dir: "data/cicids_20client_4class"
+aggregate_update_type: "norm_bounded"
+twa_norm_bound: 1.0
+trust_smoothing: 0.65
+trust_weight_power: 4.0
+trust_temperature: 1.0
+trust_weight_normalization: "power"
+trust_min_active_weight: 0.0
+trust_floor_eligibility_threshold: 0.0
+trust_max_weight: 0.25
+trust_warmup_rounds: 0
+aggregate_raw_updates: false
+suppression_threshold: 1e-08
+privacy_intensity_enabled: false
+real_ckks: true
+evaluation_reward: "5 * accuracy - 2"
+rnb_primary_alpha: 0.5
+rnb_weak_in_main_matrix: false
